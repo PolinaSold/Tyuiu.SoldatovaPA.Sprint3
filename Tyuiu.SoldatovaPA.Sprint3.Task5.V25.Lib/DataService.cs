@@ -14,7 +14,7 @@ namespace Tyuiu.SoldatovaPA.Sprint3.Task5.V25.Lib
             for (int i = startValue1; i <= stopValue1; i++)
             {
                 double innerSum = 0;
-                // Внутренний цикл по k от 1 до 10
+                // Внутренний цикл по k от 1 до 13
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
                     // Формула: (10/k) * (x^k + cos(k))
