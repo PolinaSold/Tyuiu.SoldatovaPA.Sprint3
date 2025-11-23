@@ -10,11 +10,14 @@ namespace Tyuiu.SoldatovaPA.Sprint3.Task5.V25.Lib
         {
             double totalSum = 0;
 
+            // Внешний цикл по i от 1 до 3
             for (int i = startValue1; i <= stopValue1; i++)
             {
                 double innerSum = 0;
+                // Внутренний цикл по k от 1 до 10
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
+                    // Формула: (10/k) * (x^k + cos(k))
                     double term = (10.0 / k) * (Math.Pow(x, k) + Math.Cos(k));
                     innerSum += term;
                 }

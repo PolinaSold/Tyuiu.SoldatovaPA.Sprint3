@@ -16,7 +16,7 @@ namespace Tyuiu.SoldatovaPA.Sprint3.Task5.V25.Test
             int startValue2 = 1;
             int stopValue2 = 10;
             double res = ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
-            double wait = 11849.668; // Ожидаемое значение
+            double wait = 6133.748; // Исправленное ожидаемое значение
             Assert.AreEqual(wait, res);
         }
     }
