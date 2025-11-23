@@ -17,7 +17,7 @@ namespace Tyuiu.SoldatovaPA.Sprint3.Task5.V25
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                               *");
             Console.WriteLine("* Вычислить сумму сумм ряда по формуле при X=2:                         *");
-            Console.WriteLine("* y = Σ[i=1 to 3] Σ[k=1 to 10] (10/k) * (xᵏ + cos(k))                   *");
+            Console.WriteLine("* y = Σ[i=1 to 3] Σ[k=1 to 13] (10/k) * (xᵏ + cos(k))                   *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
             Console.WriteLine("***************************************************************************");
@@ -26,7 +26,7 @@ namespace Tyuiu.SoldatovaPA.Sprint3.Task5.V25
             int startValue1 = 1;
             int stopValue1 = 3;
             int startValue2 = 1;
-            int stopValue2 = 10;
+            int stopValue2 = 13; // Изменено с 10 на 13
 
             Console.WriteLine($"Переменная X = {x}");
             Console.WriteLine($"Старт внешнего цикла = {startValue1}");
@@ -45,4 +45,3 @@ namespace Tyuiu.SoldatovaPA.Sprint3.Task5.V25
         }
     }
 }
-
