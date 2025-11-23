@@ -12,9 +12,9 @@ namespace Tyuiu.SoldatovaPA.Sprint3.Task1.V10.Test
             DataService ds = new DataService();
             int value = 5;
             int startValue = 1;
-            int stopValue = 7;
+            int stopValue = 17;
             double res = ds.GetSumSeries(value, startValue, stopValue);
-            double wait = 15.963; // Ожидаемое значение суммы
+            double wait = 0.168; // Ожидаемое значение суммы
             Assert.AreEqual(wait, res);
         }
     }

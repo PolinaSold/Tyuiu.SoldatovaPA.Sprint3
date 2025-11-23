@@ -13,7 +13,10 @@ namespace Tyuiu.SoldatovaPA.Sprint3.Task1.V10.Lib
 
             while (i <= stopValue)
             {
-                sumSeries += Math.Pow(1 + (1.0 / Math.Pow(i, value)), i);
+                // Правильная формула: (1/(i + x^i))^i
+                double denominator = i + Math.Pow(value, i);
+                double term = Math.Pow(1.0 / denominator, i);
+                sumSeries += term;
                 i++;
             }
 
